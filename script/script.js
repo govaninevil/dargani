@@ -97,4 +97,8 @@ $(document).on('ready', function () {
             $info.show();
         }
     });
+
+    $("#menu-button").on("click", function () {
+        $(".drop-down").toggleClass("show");
+    });
 });

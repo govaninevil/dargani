@@ -101,7 +101,12 @@ td{
   border: 5px solid #fff;
   padding: 5px 0px;
 }
-
+.drop-down #menu-bar{
+  display: none !important;
+}
+.drop-down.show #menu-bar{
+  display: block !important;
+}
 /* @media screen and (max-width: 1280px) {
   #parentVerticalTab {
     height: 1330px;
@@ -125,6 +130,7 @@ td{
     background-color: #ffffff;
     width: 100%;
     height: 100vh;
+    z-index: 99;
   }
   .mobile .menu-box {
     top: 45px !important;

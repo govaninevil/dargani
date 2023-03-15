@@ -37,9 +37,42 @@
             <div class="nav lg:flex hidden xl:px-[100px] px-[47px] py-[15px] justify-between items-center bg-white">
                 <div class="left">
                     <ul class="lg:flex block">
-                        <li class="mr-[49px] lg:mb-0 mb-2"><a href="/" class="active">Home</a></li>
-                        <li class="mr-[49px] lg:mb-0 mb-2"><a href="about-us.html">About Us</a></li>
-                        <li class="mr-[49px] lg:mb-0 mb-2"><a href="">Home</a></li>
+                        <li class="mr-[49px] lg:mb-0 mb-2"><a href="index.html" >Home</a></li>
+                        <li class="mr-[49px] lg:mb-0 mb-2"><a href="about-us.html" class="active">About Us</a></li>
+                        <li class="mr-[49px] lg:mb-0 mb-2">
+                            <div class="relative text-left drop-down">
+                                <div>
+                                    <button type="button"
+                                        class="inline-flex w-full lg:justify-center justify-left items-center menu-button"
+                                        id="menu-button" aria-expanded="true" aria-haspopup="true">
+                                        Products
+                                        <!-- Heroicon name: mini/chevron-down -->
+                                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="lg:absolute left-0 z-10 mt-2 lg:w-60 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                    role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1"
+                                    id="menu-bar">
+                                    <div class="py-1" role="none">
+                                        <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+                                        <a href="stainless -steel-furniture-items.html"
+                                            class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1"
+                                            id="menu-item-0">Stainless Steel Washer</a>
+                                        <a href="stainless-steel-coil-sheet-gallery.html"
+                                            class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1"
+                                            id="menu-item-1">Stainless Steel Furniture Items</a>
+                                        <a href="stainless-steel-washer.html"
+                                            class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1"
+                                            id="menu-item-2">Stainless Steel Coil & Sheet Gallery</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <li class="mr-[49px] lg:mb-0 mb-2"><a href="index.html#awards">Awards</a></li>
                         <li class="mr-[49px] lg:mb-0 mb-2"><a href="contact-us.html">Contact Us</a></li>
                         <li class="mr-[49px] lg:mb-0 mb-2"><a href="#">Download</a></li>
