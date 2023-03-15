@@ -87,6 +87,20 @@ header.small {
   width: 100%;
   z-index: 97;
 }
+table{
+  border-spacing: 0 10px;
+}
+th{
+  background-color: #825116;
+  border: 5px solid #fff;
+}
+td.gray{
+  background-color: #EFEFEF;
+}
+td{
+  border: 5px solid #fff;
+  padding: 5px 0px;
+}
 
 /* @media screen and (max-width: 1280px) {
   #parentVerticalTab {
