@@ -1,7 +1,8 @@
 $(document).on('ready', function () {
-    $( ".owl-prev")('<i class="fa fa-chevron-left"></i>');
-    $( ".owl-next")('<i class="fa fa-chevron-right"></i>');
-    
+
+    // $( ".owl-prev")('<i class="fa fa-chevron-left"></i>');
+    // $( ".owl-next")('<i class="fa fa-chevron-right"></i>');
+
 
     $("#mobile").on("click", function () {
         $("body").toggleClass("mobile");
@@ -35,7 +36,7 @@ $(document).on('ready', function () {
             1023: {
                 items: 4
             },
-            1536:{
+            1536: {
                 items: 5.5
             }
         }
@@ -83,13 +84,28 @@ $(document).on('ready', function () {
         }
     });
 
+    $('#banner-slider').owlCarousel({
+        loop: true,
+        margin: 76,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+
     $('#parentVerticalTab').easyResponsiveTabs({
         type: 'vertical', //Types: default, vertical, accordion
         width: 'auto', //auto or any width like 600px
         fit: true, // 100% fit in a container
         closed: 'accordion', // Start closed if in accordion view
         tabidentify: 'hor_1', // The tab groups identifier
-        activate: function(event) { // Callback function if tab is switched
+        activate: function (event) { // Callback function if tab is switched
             var $tab = $(this);
             var $info = $('#nested-tabInfo2');
             var $name = $('span', $info);

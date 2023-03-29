@@ -175,7 +175,7 @@ tr:nth-child(even) {
     z-index: 99;
   }
   .mobile .menu-box {
-    top: 45px !important;
+    top: 20px !important;
   }
   .mobile .menu-box span {
     background-color: #825116;
