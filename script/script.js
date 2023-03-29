@@ -1,6 +1,6 @@
 $(document).on('ready', function () {
-    $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-    $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
+    $( ".owl-prev")('<i class="fa fa-chevron-left"></i>');
+    $( ".owl-next")('<i class="fa fa-chevron-right"></i>');
     
 
     $("#mobile").on("click", function () {
