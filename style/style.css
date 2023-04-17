@@ -144,9 +144,10 @@ tr:nth-child(even) {
 .small .top-nav{
   display: none;
 }
-.container{
-  margin: 0px 20px;
-}
+
+  /* .container{
+    margin: 0px 20px;
+  } */
 .steel-product-furniture .furniture-gallery a img{
   width: 250px;
   height: 205px;
@@ -155,10 +156,14 @@ tr:nth-child(even) {
   width: 100%;
   height: 30vh;
 }
+.img-map{
+  width: 25%;
+}
 @media screen and (min-width: 1280px) {
   .awards .title:before {
     display: block;
   }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -173,6 +178,12 @@ tr:nth-child(even) {
     width: 100%;
     height: 100vh;
     z-index: 99;
+  }
+  .img-map{
+    width: auto;
+  }
+  .\33 dview, .\32 dview{
+    margin: 0px auto;
   }
   .mobile .menu-box {
     top: 20px !important;
